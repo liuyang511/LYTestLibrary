@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'LYTestLibrary/*.h'
   s.source_files = 'LYTestLibrary/*.{h}'
-  s.vendored_frameworks = "**/*.a"
+
+  s.ios.vendored_libraries  = 'LYTestLibrary-1.7/ios/*.a'
+  s.libraries = 'LYTestLibrary'
 
 end
