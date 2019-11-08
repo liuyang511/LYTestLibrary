@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/liuyang511/LYTestLibrary.git', :tag => s.version }
   s.requires_arc = true
 
-  s.public_header_files = 'LYTestLibrary/*.{h,m}'
+  s.public_header_files = 'LYTestLibrary/*.h'
   s.source_files = 'LYTestLibrary/*.{h,m}'
 
 end
