@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LYTestLibrary'
-  s.version      = '1.2'
+  s.version      = '1.3'
   s.ios.deployment_target = '9.0'
   s.license  =  { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An example of LYTestLibrar'
