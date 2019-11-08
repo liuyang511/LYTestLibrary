@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD7AD49A2375499900DFE75B /* libLYTestLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7AD4992375499900DFE75B /* libLYTestLibrary.a */; };
 		CD9AB65E2367DEEE00085889 /* LYTestLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9AB65D2367DEEE00085889 /* LYTestLibrary.m */; };
 		CD9AB65F2367DEEE00085889 /* LYTestLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD9AB65C2367DEEE00085889 /* LYTestLibrary.h */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD7AD4992375499900DFE75B /* libLYTestLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLYTestLibrary.a; sourceTree = "<group>"; };
 		CD9AB6592367DEEE00085889 /* libLYTestLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLYTestLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9AB65C2367DEEE00085889 /* LYTestLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTestLibrary.h; sourceTree = "<group>"; };
 		CD9AB65D2367DEEE00085889 /* LYTestLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTestLibrary.m; sourceTree = "<group>"; };
@@ -37,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7AD49A2375499900DFE75B /* libLYTestLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +62,6 @@
 			children = (
 				CD9AB65C2367DEEE00085889 /* LYTestLibrary.h */,
 				CD9AB65D2367DEEE00085889 /* LYTestLibrary.m */,
-				CD7AD4992375499900DFE75B /* libLYTestLibrary.a */,
 			);
 			path = LYTestLibrary;
 			sourceTree = "<group>";
