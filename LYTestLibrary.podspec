@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LYTestLibrary'
-  s.version      = '1.8'
+  s.version      = '1.9'
   s.ios.deployment_target = '9.0'
   s.license  =  { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An example of LYTestLibrar'
@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_libraries  = 'LYTestLibrary-1.7/ios/*.a'
   s.libraries = 'LYTestLibrary'
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => "LYTestLibrary/*.h" }
 
 end
