@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.public_header_files = 'LYTestLibrary/*.h'
   s.source_files = 'LYTestLibrary/*.{h}'
 
-  s.ios.vendored_libraries  = 'LYTestLibrary-1.7/ios/*.a'
+  s.ios.preserve_paths      = 'LYTestLibrary-1.7/ios/libLYTestLibrary.a',
+  s.ios.vendored_libraries  = 'LYTestLibrary-1.7/ios/libLYTestLibrary.a'
   s.libraries = 'LYTestLibrary'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => "LYTestLibrary/*.h" }
 
