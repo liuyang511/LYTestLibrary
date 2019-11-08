@@ -11,7 +11,7 @@
 @implementation LYTestLibrary
 
 /// 库文件描述,输出一段文本
-- (void)testMethed{
++ (void)testMethed{
     NSLog(@"库文件输出文字完成!");
 }
 

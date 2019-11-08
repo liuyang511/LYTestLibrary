@@ -12,6 +12,6 @@
 
 
 /// 库文件描述,输出一段文本
-- (void)testMethed;
++ (void)testMethed;
 
 @end
