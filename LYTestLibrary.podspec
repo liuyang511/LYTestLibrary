@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LYTestLibrary'
-  s.version      = '1.6'
+  s.version      = '1.7'
   s.ios.deployment_target = '9.0'
   s.license  =  { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An example of LYTestLibrar'
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.public_header_files = 'LYTestLibrary/*.h'
-  s.source_files = 'LYTestLibrary/*.{h,m}'
+  s.source_files = 'LYTestLibrary/*.{h,a}'
 
 end
